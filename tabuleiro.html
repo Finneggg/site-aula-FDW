@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pokecss.css">
+    <title>PokeTabuleando</title>
+
+    <style>
+        canvas {
+            background-color: rgb(151, 207, 134);
+            border: 4px solid rgb(17, 17, 17);
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <body>
+    <header>
+        <p class="autor">
+            <em>Andrey Grava Gomes & Daniel Lazaro de Moraes</em>
+        </p>
+
+        <h1>Tabuleiro!</h1>
+
+        <img
+            class="imagem-capa"
+            src="https://mediaproxy.tvtropes.org/width/1200/https://static.tvtropes.org/pmwiki/pub/images/pokemonbig.png"
+            alt="Imagem representando Pokémon">
+
+        <!-- índice digital po -->
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="index.html#introducao">Sobre Pokémon</a>
+            <a href="#links">Acesse também</a>
+        </nav>
+    </header>
+    
+    <main>
+
+        <section>
+            <h2 class="subtitulo">Interagindo com o Tabuleiro</h2>
+            <p>
+                Nosso jogo é uma forma divertida e interativa de aprender aleatoriamente sobre o mundo de
+                Pokémon! Para começar, basta rolar seu dado no botão abaixo!
+            </p>
+
+        </section>
+    <h2>Sua Curiosidade!</h2>
+            <article>
+                <h3 id="rolagem"></h3>
+                <h2 id="nome"></h2>
+                <p id="curiosidade"></p>
+            </article>
+    <center><button id="rolar"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQfzWXckSLI3mDrcMibOg9VLM9oD6lGNSDXjRBY3TIzQ&s=10" width="300px" height="300px"></button></center>
+    <center><canvas id="jogo" width="1300px" height="1300px"></canvas></center>
+
+    <script src="JS3.js"></script>
+</body>
+</html>
